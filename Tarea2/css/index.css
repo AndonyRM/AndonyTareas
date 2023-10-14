@@ -1,0 +1,109 @@
+/* Inician estilos generales de la pagina */
+
+html {
+    font-size: 1rem;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.30rem;
+}
+
+
+/* Inician estilos especificos*/
+
+.banner-principal {
+    background-attachment: fixed;
+    background-size: contain;
+    height: 85vh;
+    width: 100%;
+    background-position: center;
+    background-image: url('../imagenes/banner1.png');
+    background-repeat: no-repeat;
+}
+
+.imagenesCursos{
+    height: 17rem;
+    border-radius: 10px;
+}
+
+.fondoSection{
+    background-color:#2597be;
+}
+
+.botonesInfo{
+    background-color: #94ba28;
+    color: #f7f1e3;
+}
+
+.botonesInfo:hover{
+    background-color: #e97b4c;
+    color: #ffffff;
+}
+
+.ilustracion1{
+    height: 23rem;
+}
+
+.nav-item:hover{
+    border-bottom: 1px solid #ff793f !important;
+}
+
+.franjaColor{
+    color: #ffffff;
+    background-color: #f19066 !important;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* .franjaColor{
+    background-color: #ff793f;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px; */
+/* } */
+
+
+.ciscoimg{
+    height: 11rem;
+    width: 11rem;
+}
+
+.footerEstilos{
+    background-color: #6b7783c1;
+}
+
+.banner-secundario {
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 65vh;
+
+    background-image: url('../imagenes/banner2.jpg')
+}
+
+
+.redesSociales{
+    border: 0px;
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.ilustracion3{
+    height: 23rem;
+}
